@@ -11,11 +11,19 @@ const Poster = (props) => {
                     className="w-full h-full rounded-md"
                 />
             </div>
-            <h3 className="text-lg font-bold text-gray-700">
-                Fast and Furious 9
+            <h3
+                className={`text-lg font-bold ${
+                    props.isDark ? "text-white" : "text-gray-700"
+                }`}
+            >
+                {props.title}
             </h3>
-            <p className="text-sm text-gray-700">
-                Action/Adventure/Crime/Thriller
+            <p
+                className={`text-sm ${
+                    props.isDark ? "text-white" : "text-gray-700"
+                }`}
+            >
+                {props.subtitle}
             </p>
         </div>
     );
