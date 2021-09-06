@@ -5,7 +5,7 @@ import HeroSlider from "react-slick";
 import { NextArrow, PrevArrow } from "./Arrows.Component";
 
 const HeroCarousel = () => {
-    const [images, setImages] = useState([
+    const [images] = useState([
         "https://in.bmscdn.com/promotions/cms/creatives/1630474590730_mardkodardnhihota_1240x300_1sep.jpg",
         "https://in.bmscdn.com/promotions/cms/creatives/1629830049996_celebfiecruisewiththestarsrevised_webshowcase_1240x300_24aug.jpg",
         "https://in.bmscdn.com/promotions/cms/creatives/1628591224466_fnbgeneric.jpg",

@@ -11,12 +11,14 @@ import MovieHOC from "./HOC/Movie.HOC";
 //Pages
 import HomePage from "./pages/Home.Page";
 import MoviePage from "./pages/Movie.Page";
+import Plays from "./pages/Plays.Page";
 
 function App() {
     return (
         <>
             <DefaultHOC path="/" exact component={HomePage} />
             <MovieHOC path="/movie/:id" exact component={MoviePage} />
+            <DefaultHOC path="/plays" exact component={Plays} />
         </>
     );
 }

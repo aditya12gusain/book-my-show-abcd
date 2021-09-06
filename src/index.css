@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+    background-color: #F5F5F5 !important;
+}
+
 .slick-prev {
     left: 3% !important;
     z-index: 1;
