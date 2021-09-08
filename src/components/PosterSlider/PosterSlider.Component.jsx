@@ -62,6 +62,7 @@ const PosterSlider = (props) => {
                 {posters.map((each) => (
                     <Poster {...each} isDark={isDark} />
                 ))}
+                {console.log(posters)}
             </Slider>
         </>
     );
